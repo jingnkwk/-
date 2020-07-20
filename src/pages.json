@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "漫画"
+				
+			}
+		}
+	    ,{
+            "path" : "pages/find/find",
+            "style" : {
+				"navigationBarTitleText": "发现"
+			}
+        }
+        ,{
+            "path" : "pages/community/community",
+            "style" : {
+				"navigationBarTitleText": "书架"
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText": "搜索"
+			}
+        }
+        ,{
+            "path" : "pages/details/details",
+            "style" : {
+				"navigationBarTitleText": "详情"
+			}
+        }
+        ,{
+            "path" : "pages/read/read",
+            "style" : {
+				"navigationBarTitleText": "看漫画"// "titleNView": false
+				
+			}
+        }
+        ,{
+            "path" : "pages/search_content/search_content",
+            "style" : {
+				"navigationBarTitleText": "搜索内容"
+			}
+        }
+        ,{
+            "path" : "pages/com_search/com_search",
+            "style" : {
+				"navigationBarTitleText": "小说搜索页面"
+			}
+        }
+        ,{
+            "path" : "pages/com_search_content/com_search_content",
+            "style" : {
+				"navigationBarTitleText": "小说搜索结果页面"
+			}
+        }
+        ,{
+            "path" : "pages/com_details/com_details",
+            "style" : {
+				"navigationBarTitleText": "小说详情页面"
+			}
+        }
+        ,{
+            "path" : "pages/com_read/com_read",
+            "style" : {
+				"navigationBarTitleText": "阅读小说"
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "趣味漫画",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F1F1F1"
+	},
+	"tabBar":{
+		"color": "#999794",
+		"selectedColor": "#f487a7",
+		"borderStyle": "white",
+		"backgroundColor": "#fafafa",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/images/tabbar/manhua1.png",
+				"selectedIconPath":"static/images/tabbar/manhua2.png",
+				"text":"漫画"
+			},
+			{
+				"pagePath":"pages/find/find",
+				"iconPath":"static/images/tabbar/faxian1.png",
+				"selectedIconPath":"static/images/tabbar/faxian2.png",
+				"text":"发现"
+			},
+			{
+				"pagePath":"pages/community/community",
+				"iconPath":"static/images/tabbar/shequ1.png",
+				"selectedIconPath":"static/images/tabbar/shequ2.png",
+				"text":"书架"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"iconPath":"static/images/tabbar/my1.png",
+				"selectedIconPath":"static/images/tabbar/my2.png",
+				"text":"我的"
+			}
+		]
+	},
+	"sitemapLocation":"sitemap.json"
+}
